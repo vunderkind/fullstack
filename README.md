@@ -24,4 +24,9 @@ This is your command interpreter that interfaces with your system.
 
 Popular examples: bash, zsh. 
 
-The shell is the frontline you interface with, which gives you access to the application (the OS, typically) which gives you access to the kernel (which is the core of the OS. It handles the communication with the machine layer. )
+The shell is the frontline you interface with, which gives you access to the application (the OS, typically) which gives you access to the kernel (which is the core of the OS. It handles the communication with the machine layer.)
+
+## How does the internet work?
+The internet is 'a bunch of computers talking with eachother' using a bunch of requests and responses (a series of tubes). The world-wide web is simply a part of the internet. There's FTP, streaming, etc. 
+
+The internet can also be thought of as a series of publicly internet-connected devices, which is what separates it from the intranet. 
