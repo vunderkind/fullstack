@@ -49,3 +49,8 @@ Lossless transmission, using error-correction and error-checking. It sends a syn
 UDP is a one-way blast of information. As a result, it's faster than TCP. 
 
 'I have a good joke about UDP, but you might not get it.' 
+
+## Pings
+Useful for debugging a site. You basically say 'hey' repeatedly to a destination, and you can use that to measure the round-trip and see how fast responses are coming, or if the server is even online.
+
+`$ ping twitter.com`
