@@ -57,3 +57,15 @@ Useful for debugging a site. You basically say 'hey' repeatedly to a destination
 
 ## Domain Name System (DNS)
 DNS is run by ICANN. It's an intelligent internet phone book. It reroutes you to the closest server that resolves to your location. DNS maps domain names to IP addresses. 
+
+## Subdomains versus Paths
+Subdomain - blog.justinirabor.com
+Subdomain implies a different website entirely. 
+
+Paths - justinirabor.com/about
+
+
+## Nameservers
+Map domains to IP addresses. They're the record keepers of the internet. 
+
+## Trace routes
