@@ -30,3 +30,22 @@ The shell is the frontline you interface with, which gives you access to the app
 The internet is 'a bunch of computers talking with eachother' using a bunch of requests and responses (a series of tubes). The world-wide web is simply a part of the internet. There's FTP, streaming, etc. 
 
 The internet can also be thought of as a series of publicly internet-connected devices, which is what separates it from the intranet. 
+
+## Internet Protocol
+A set of agreed-upon rules that is trust-based for defining how computers can talk to each other. The internet protocol is called IP. 
+
+IP address: set of numbers that denotes the address of your computer. 
+
+There are over 3.4 billion devices currently running on the internet. 
+
+IPv4 (4 numbers for IP addresses, eg 8.8.8.8) was one of the first IP addresses. There were 4.3bn addresses, but the number of interconnected devices outpaced it, which leads to IPv6.
+
+IPv6 looks more like this (2001:4868:4868:8888), and it has 340decillion IP addresses, so we shan't be running out any time soon.
+
+## Transmission Control Protocol (TCP)
+Lossless transmission, using error-correction and error-checking. It sends a syn package and the responder sends an ack package, and then transmission happens. 
+
+## User Diagram Protocol
+UDP is a one-way blast of information. As a result, it's faster than TCP. 
+
+'I have a good joke about UDP, but you might not get it.' 
