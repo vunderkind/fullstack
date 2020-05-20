@@ -54,3 +54,6 @@ UDP is a one-way blast of information. As a result, it's faster than TCP.
 Useful for debugging a site. You basically say 'hey' repeatedly to a destination, and you can use that to measure the round-trip and see how fast responses are coming, or if the server is even online.
 
 `$ ping twitter.com`
+
+## Domain Name System (DNS)
+DNS is run by ICANN. It's an intelligent internet phone book. It reroutes you to the closest server that resolves to your location. DNS maps domain names to IP addresses. 
