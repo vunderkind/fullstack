@@ -80,3 +80,6 @@ in your terminal.
 Some servers ignore your ICMP (Internet Control Messaging Protocol) requests if you don't want to be pinged or tracerouted to death. 
 
 eg `traceroute frontendmasters.com`
+
+## Packets
+Contain meta-data, information about the data you're sending (where it's going, where it came from, others like headers).
