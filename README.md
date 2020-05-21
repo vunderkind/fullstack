@@ -75,3 +75,8 @@ Shows you the hops that the servers pass to get to the location you're trying to
 For more context, type:
 `man traceroute`
 in your terminal. 
+
+## Black-holing
+Some servers ignore your ICMP (Internet Control Messaging Protocol) requests if you don't want to be pinged or tracerouted to death. 
+
+eg `traceroute frontendmasters.com`
