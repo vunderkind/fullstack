@@ -71,3 +71,7 @@ Map domains to IP addresses. They're the record keepers of the internet.
 ## Trace routes
 `traceroute google.com`
 Shows you the hops that the servers pass to get to the location you're trying to locate. 
+
+For more context, type:
+`man traceroute`
+in your terminal. 
