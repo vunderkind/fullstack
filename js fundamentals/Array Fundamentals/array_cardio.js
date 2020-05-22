@@ -41,3 +41,16 @@ const totalYears = inventors.reduce((total, inventor)=>{
 //note: the 0 at the end of this function prevents the total (which is the accumulator) from initializing as undefined
 console.log(totalYears)
 
+// Sum up the instances of these
+const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck', 'goat','rabbit','rabbit'];
+
+const instances = data.reduce((obj, item)=>{
+    if (!obj[item]){
+        obj[item] = 0;
+    }
+    obj[item]++;
+    return obj
+
+}, {})
+
+console.table(instances)
