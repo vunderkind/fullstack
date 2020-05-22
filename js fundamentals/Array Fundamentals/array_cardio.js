@@ -32,3 +32,12 @@ const firstAndLast = inventors.map((inventor)=>console.table(`${inventor.first} 
 const agesort = inventors.sort((a,b)=>a.year>b.year? 1:-1)
 
 console.table(agesort)
+
+//Find the total number of years the inventors lived
+const totalYears = inventors.reduce((total, inventor)=>{
+    return total + (inventor.passed - inventor.year)
+},0);
+
+//note: the 0 at the end of this function prevents the total (which is the accumulator) from initializing as undefined
+console.log(totalYears)
+
